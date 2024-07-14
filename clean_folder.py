@@ -12,13 +12,13 @@ def organize_files(path):
         'Misc Files', 'Developer Files', 'Disk Image Files', 'Compressed Files',
         'Settings Files', 'System Files', 'Plugin Files', 'Web Files', 'Game Files',
         'Database', 'Spreadsheet', '3D', 'Images', 'Text Files', 'Executables',
-        'Videos', 'Music', 'PDF', 'Presentation', 'Data Files'
+        'Videos', 'Music', 'PDF', 'Presentation', 'Data Files', 'E-mail Files'
     ]
 
     # List of file extensions for each category
     file_categories = {
         'Images': ['.heic', '.png', '.jpg', '.tif', '.tiff', '.bmp', '.jpeg', '.gif', '.eps', '.raw', '.cr2', '.nef', '.orf', '.sr2'],
-        'Text Files': ['.txt', '.fpt', '.docx', '.rtf', '.log', '.doc'],
+        'Text Files': ['.txt', '.fpt', '.docx', '.rtf', '.log', '.doc', '.pfx', '.cer'],
         'Presentation': ['.ppt', '.pptx'],
         'Data Files': ['.csv', '.key', '.keychain', '.dat', '.sdf', '.tar', '.xml', '.vcf'],
         'Music': ['.flac','.aif', '.iff', '.m3u', '.m4a', '.mid', '.mp3', '.mpa', '.wav', '.wma'],
@@ -29,14 +29,15 @@ def organize_files(path):
         'Executables': ['.exe', '.msi', '.apk', '.app', '.bat', '.cgi', '.com', '.gadget', '.jar', '.wsf'],
         'Game Files': ['.b', '.dem', '.gam', '.nes', '.rom', '.sav'],
         'PDF': ['.pdf'],
-        'Web Files': ['.asp', '.aspx', '.css', '.htm', '.html', '.js', '.jsp', '.php', '.rss'],
+        'Web Files': ['.asp', '.aspx', '.css', '.htm', '.html', '.js', '.jsp', '.php', '.rss', '.webp'],
         'Plugin Files': ['.crx', '.plugin', '.fnt', '.fon', '.otf', '.ttf'],
         'System Files': ['.cab', '.deskthemepack', '.dll', '.ico', '.sys', '.lnk', '.dmp', '.drv'],
         'Settings Files': ['.ini', '.cfg', '.prf'],
         'Compressed Files': ['.7z', '.cbr', '.deb', '.gz', '.pkg', '.rar', '.rpm', '.tar.gz', '.zip', '.zipx'],
-        'Disk Image Files': ['.bin', '.dmg', '.iso', '.img', '.mdf', '.vcd'],
-        'Developer Files': ['.c', '.class', '.cpp', '.cs', '.java', '.pl', '.py', '.sh', '.vb', '.vcxproj', '.jsp', '.servlet'],
-        'Misc Files': ['.ics', '.part', '.torrent']
+        'Disk Image Files': ['.bin', '.dmg', '.iso', '.img', '.mdf', '.vcd', '.svg'],
+        'Developer Files': ['.c', '.class', '.cpp', '.cs', '.java', '.pl', '.py', '.sh', '.vb', '.vcxproj', '.jsp', '.servlet', '.yaml', '.yml', '.ps1', '.json'],
+        'Misc Files': ['.ics', '.part', '.torrent'],
+        'E-mail Files': ['.eml']
     }
 
     # Dictionary to track which folders need to be created
