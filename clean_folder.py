@@ -21,7 +21,7 @@ def organize_files(path):
         'Text Files': ['.txt', '.fpt', '.docx', '.rtf', '.log', '.doc'],
         'Presentation': ['.ppt', '.pptx'],
         'Data Files': ['.csv', '.key', '.keychain', '.dat', '.sdf', '.tar', '.xml', '.vcf'],
-        'Music': ['.aif', '.iff', '.m3u', '.m4a', '.mid', '.mp3', '.mpa', '.wav', '.wma'],
+        'Music': ['.flac','.aif', '.iff', '.m3u', '.m4a', '.mid', '.mp3', '.mpa', '.wav', '.wma'],
         'Videos': ['.3g2', '.3gp', '.asf', '.avi', '.flv', '.m4v', '.mov', '.mp4', '.mpg', '.rm', '.srt', '.swf', '.mkv', '.vob', '.wmv'],
         '3D': ['.3dm', '.3ds', '.max', '.obj', '.stl', '.3mf'],
         'Spreadsheet': ['.xlr', '.xls', '.xlsx'],
